@@ -1,0 +1,73 @@
+.productCard {
+  max-width: 80rem;
+  margin: 0 auto 10rem;
+
+  .hero {
+    display: block;
+    width: 100%;
+    margin: 2rem auto;
+
+    img {
+      display: block;
+      width: 100%;
+      margin: 0;
+      border-radius: 15px;
+    }
+  }
+
+  .productDetails {
+    ul,
+    ul li {
+      padding: 0;
+      margin: 0;
+    }
+
+    ul li {
+      list-style-type: none;
+      margin: 0 auto 1rem;
+
+      h1 {
+        margin: 0;
+      }
+    }
+
+    .name {
+      text-align: center;
+      text-shadow: 2px 1px 2px #0000001f;
+    }
+
+    .price {
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 15px;
+      color: #a35709;
+      text-shadow: 2px 1px 2px #0000001f;
+    }
+
+    .datePick {
+      margin: auto;
+      width: 40%;
+      border: 2px solid #ff5722;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 25px;
+      margin-bottom: 12px;
+    }
+
+    .addToCart {
+      max-width: 20rem;
+      margin: auto;
+    }
+
+    .google-map-code {
+      margin: auto;
+      border: 2px solid #ff5722;
+      border-radius: 10px;
+      padding: 5px;
+      margin-top: 25px;
+    }
+  }
+}
+
+@import url("https://cdn.syncfusion.com/ej2/material.css");

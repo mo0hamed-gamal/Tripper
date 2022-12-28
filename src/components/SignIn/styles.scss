@@ -1,0 +1,35 @@
+.socialSignin {
+    margin: 0.5rem auto 0;
+}
+
+.links {
+    display: block;
+    width: 100%;
+    margin: 1.5rem auto 0;
+    font-size: 17px;
+
+    a {
+        color: black;
+    }
+
+    a:hover {
+        color: #E89B19;
+    }
+}
+
+.Gbutton {
+    display: block;
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 1;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #1b1a17;
+    background: #fff8ee;
+    border-radius: 5px;
+    padding: 1.5rem 0;
+    margin: 0 auto;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
